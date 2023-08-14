@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Chelsea;
+  src: url(../assets/fonts/ChelseaMarket-Regular.ttf);
+}
+
+@font-face {
+  font-family: Fredoka;
+  src: url(../assets/fonts/Fredoka-Regular.ttf);
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url(../assets/fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: PressStart;
+  src: url(../assets/fonts/PressStart2P-Regular.ttf);
+}
+
+body {
+  font-weight: bold;
+}
+
+h1 {
+  background-color: greenyellow;
+  font-family: PressStart;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Chelsea;
+  font-size: 15px;
+}
+
+em {
+  font-family: Fredoka;
+  text-shadow: 0px 0px 2px red;
+  font-size: 20px;
+}
+
+strong {
+  font-family: Fredoka;
+  font-size: 10px;
+}
+
+p {
+  font-family: Pacifico;
+}

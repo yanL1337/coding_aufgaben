@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Cinzel;
+  src: url(../assets/fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../assets/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url(../assets/fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: ShadowsInto;
+  src: url(../assets/fonts/ShadowsIntoLight-Regular.ttf);
+}
+
+.font-cinzel {
+  font-family: Cinzel;
+}
+
+.font-lato {
+  font-family: Lato;
+}
+
+.font-shadows {
+  font-family: ShadowsInto;
+}
+
+.font-pacifico {
+  font-family: Pacifico;
+}
+
+.style-italic {
+  font-style: italic;
+}
+
+.cinzel-12 {
+  font-size: 12px;
+}
+
+.cinzel-36 {
+  font-size: 36px;
+}
+
+.cinzel-52 {
+  font-size: 52px;
+}
+
+.lato-thin {
+  font-weight: lighter;
+}
+.lato-bold {
+  font-weight: bold;
+}
+
+.shadow-pacifico {
+  text-shadow: 0px 0px 2px green;
+}
+.underline-pacifico {
+  text-decoration: underline;
+}
+.transform-pacifico {
+  text-transform: lowercase;
+}
+.shadows-background {
+  background-color: green;
+}
+.shadows-color {
+  color: aquamarine;
+}
+.shadows-border {
+  border: 50px;
+}

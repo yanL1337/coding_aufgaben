@@ -1,0 +1,12 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+h1 {
+  font-family: monospace;
+  font-size: 10rem;
+  text-align: center;
+  font-weight: 700;
+  color: #353531;
+  text-shadow: 5px 3px 1px #ec4e20, 8px 6px 1px #ff9505, 11px 9px 1px #016fb9,
+    14px 12px 1px #f2f3d9, 17px 15px 1px #7cb518;
+}

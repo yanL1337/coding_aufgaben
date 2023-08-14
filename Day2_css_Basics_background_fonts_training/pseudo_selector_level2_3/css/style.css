@@ -1,0 +1,39 @@
+body {
+  font-family: monospace;
+}
+
+div:first-of-type {
+  text-align: center;
+}
+
+div:first-of-type:hover {
+  color: aquamarine;
+}
+
+div:nth-of-type(3) {
+  background-color: aquamarine;
+  word-spacing: 10px;
+}
+
+div:nth-of-type(3) li {
+  font-style: italic;
+}
+div:nth-of-type(3) li:last-of-type {
+  font-style: normal;
+}
+
+div:last-of-type {
+  text-align: center;
+}
+
+div:last-of-type a {
+  border: aquamarine;
+  border-style: solid;
+}
+
+div:last-of-type:hover {
+  font-size: 1.3rem;
+}
+div:last-of-type:active {
+  color: aquamarine;
+}
