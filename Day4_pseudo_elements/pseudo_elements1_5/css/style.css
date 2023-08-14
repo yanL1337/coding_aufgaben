@@ -1,0 +1,40 @@
+.Test {
+  height: 120px;
+  width: 400px;
+  margin: 100px;
+
+  text-align: center;
+}
+
+p::first-letter {
+  font-size: 24px;
+}
+span {
+  border-bottom: 2px solid black;
+}
+
+span:hover:first-of-type {
+  border: 2px solid black;
+}
+span:hover:last-of-type {
+  background-color: black;
+  color: white;
+}
+p::before {
+  background-size: 40px 40px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  content: "";
+  background-image: url(https://cdn-icons-png.flaticon.com/512/157/157247.png);
+}
+
+p::after {
+  position: absolute;
+  background-size: 40px 40px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  content: "";
+  background-image: url(https://cdn-icons-png.flaticon.com/512/157/157248.png);
+}

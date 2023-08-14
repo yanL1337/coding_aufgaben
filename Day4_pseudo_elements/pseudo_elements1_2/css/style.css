@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Montser;
+  src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: Montser;
+}
+
+p:hover::first-line {
+  color: grey;
+}
+p:first-of-type::before {
+  content: "Hallo123";
+}
+
+h3::first-letter {
+  color: green;
+  font-size: 30px;
+}
+h3:hover::first-letter {
+  color: grey;
+}
+
+li:first-of-type::first-letter {
+  color: skyblue;
+  font-size: 30px;
+  text-decoration: overline;
+}
+li:nth-of-type(2)::first-letter {
+  color: rgb(218, 14, 160);
+  font-size: 30px;
+  text-decoration: underline;
+}
+li:last-of-type::first-letter {
+  color: greenyellow;
+  font-size: 30px;
+  text-decoration: line-through;
+}
+li:last-of-type::first-line {
+  text-decoration: line-through;
+}
+p.darkness {
+  color: gray;
+  font-weight: bold;
+}
+
+.big {
+  font-weight: bold;
+}
+.big::after {
+  content: "Test123Hallo";
+  color: greenyellow;
+}
+
+*::selection {
+  background-color: blueviolet;
+  color: white;
+}
+
+.big::first-letter,
+.small::first-letter {
+  color: red;
+  font-size: 30px;
+}
+
+.big::first-line,
+.small::first-line {
+  color: greenyellow;
+}

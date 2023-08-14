@@ -1,0 +1,42 @@
+h1::first-letter {
+  color: #00796b;
+  font-size: 3em;
+}
+
+li::marker {
+  content: "";
+}
+
+h1:hover::first-letter {
+  color: #4fc3f7;
+}
+
+.done::before {
+  content: "✅ ";
+}
+.going::before {
+  content: "🚧 ";
+}
+.comming::before {
+  content: "🔜 ";
+}
+
+.done::after {
+  content: "  Erledigte aufgabe";
+}
+.going::after {
+  content: "  Laufende aufgabe";
+}
+.comming::after {
+  content: "  Kommende aufgabe";
+}
+
+.done {
+  text-decoration: line-through;
+}
+.going {
+  background-color: aquamarine;
+}
+.comming {
+  text-decoration: underline;
+}

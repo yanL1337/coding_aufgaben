@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Montser;
+  src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+li:nth-child(3n + 0) {
+  font-family: Montser;
+  color: #311b92;
+}
+
+li:nth-child(5n + 0) {
+  background-color: #fff176;
+}
+
+li:nth-child(2n + 0) {
+  text-decoration: underline;
+}
+
+li:nth-child(2n + 1) {
+  list-style-type: square;
+}
+li:nth-child(7n + 7) {
+  font-size: 1.6em;
+}
+li:first-child {
+  color: #e53935;
+}
+li:nth-child(4n + 4) {
+  letter-spacing: 6px;
+}
+li:nth-child(13n + 13) {
+  background-color: #ff8a80;
+}
