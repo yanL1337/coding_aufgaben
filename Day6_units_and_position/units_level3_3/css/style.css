@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+header {
+  width: 100vw;
+  height: 695px;
+  margin-bottom: 300px;
+  display: inline-block;
+  background-color: rgb(42, 42, 42);
+}
+
+.super {
+  display: inline-block;
+  width: 75px;
+  height: 40px;
+  color: #949494;
+  font-family: Maven Pro;
+  font-size: 17px;
+}
+
+.fresh {
+  width: 300px;
+  height: 230px;
+  color: white;
+  background-image: linear-gradient(to top right, pink, blue);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fresh:hover {
+  background-color: white;
+}
+
+.fresh h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 160px;
+  height: 55px;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.fresh p {
+  text-align: center;
+}
+
+ul li {
+  text-align: right;
+  color: #949494;
+  margin-bottom: 20px;
+}
+
+ul li:hover {
+  color: aliceblue;
+  text-shadow: 1px 1px 20px white;
+}
+
+.smallPadding h2,
+p {
+  padding: 30px;
+}
+
+section h2 {
+  color: rgba(128, 128, 128, 0.383);
+  font-size: 100px;
+}
+
+.underProjects {
+  font-size: 30px;
+  font-weight: bold;
+  word-spacing: 3px;
+  margin-bottom: 60px;
+}
+
+.smallText {
+  display: inline-block;
+  width: 50vw;
+  margin-bottom: 70px;
+  padding: 20px;
+}
+
+.pics {
+  padding: 200px;
+}
+
+.pics img {
+  width: 696px;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.pics h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.pics p {
+  margin-bottom: 80px;
+}

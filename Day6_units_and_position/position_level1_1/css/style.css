@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Poppin;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  height: 100vh;
+  background: url(../assets/img/Jungle.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.card {
+  font-size: larger;
+  font-family: Poppin;
+  text-align: right;
+  position: absolute;
+  left: 80vw;
+  top: 20vh;
+}
+.card h1 {
+  margin-bottom: 20px;
+}

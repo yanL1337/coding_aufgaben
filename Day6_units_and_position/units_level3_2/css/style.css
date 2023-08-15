@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../assets/img/jakob-owens-reVTocAT6Ms-unsplash.jpg) no-repeat
+    center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+}
+
+header {
+  font-style: italic;
+  color: rgb(180, 180, 180);
+  margin-bottom: 200px;
+}
+
+header span {
+  background-color: rgba(194, 194, 194, 0.223);
+}
+
+main {
+  color: #cdd4decb;
+}
+
+.big {
+  font-size: 165px;
+  margin-bottom: 70px;
+}
+
+.smaller {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.smallest {
+  margin-bottom: 200px;
+}
+
+a {
+  color: #cdd4decc;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #cdd4de47;
+
+  text-decoration: none;
+}
