@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Lato;
+  src: url(../assets/fonts/Lato-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Lato;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+nav {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav h1::before {
+  content: "💎 ";
+}
+
+.infos {
+  margin-left: 50px;
+}
+.infos a {
+  margin-left: 20px;
+}
+.checkout {
+  margin-left: auto;
+}
+.checkout a {
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.items {
+  background-color: #d9e8e5;
+  height: 100vh;
+  padding: 100px;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.price {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.gallery img {
+  margin: 5px 5px;
+}

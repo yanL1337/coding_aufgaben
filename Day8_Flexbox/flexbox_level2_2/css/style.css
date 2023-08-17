@@ -1,0 +1,52 @@
+@font-face {
+  font-family: Raleway;
+  src: url(../assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Raleway, "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  height: 76px;
+}
+
+.logo {
+  color: #666;
+}
+.logo:hover {
+  color: #333;
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: #337ab7;
+  transition: 0.4s;
+}
+
+nav {
+  padding: 30px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 20px;
+}

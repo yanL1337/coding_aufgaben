@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Raleway;
+  src: url(../assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Raleway, "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  height: 76px;
+}
+
+.logo {
+  color: #666;
+  text-decoration: none;
+}
+.logo:hover {
+  color: #333;
+  transition: 0.5s;
+}
+
+li a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: #337ab7;
+  transition: 0.4s;
+}
+
+nav {
+  padding: 30px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.backGround {
+  background: url(../assets/img/neom-wbOKjgQv3nY-unsplash.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.backGround a {
+  text-decoration: none;
+  color: white;
+}
+
+article h1 {
+  font-weight: 4000;
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+article h2 {
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+article a:nth-of-type(2) {
+  padding: 15px 60px;
+  border: 2px solid #745cf9;
+  background-color: #745cf9;
+}
+
+article a:nth-of-type(2):hover {
+  background-color: #735cf9a8;
+}
+
+article a:first-of-type {
+  padding: 15px 60px;
+  border: 2px solid white;
+}
+
+article a:first-of-type:hover {
+  padding: 15px 60px;
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+}
+
+.backGround article {
+  margin: 0 auto;
+  padding: 200px;
+}

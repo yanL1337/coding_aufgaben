@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+main section img {
+  width: 100vw;
+}
