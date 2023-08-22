@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blue {
+  background-color: blue;
+  width: 500px;
+  height: 100px;
+  margin: 100px auto 0 auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.blue p,
+h1 {
+  color: azure;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.beige {
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+  margin: 0 auto;
+}
+
+.formal {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  background-color: beige;
+  width: 400px;
+  height: 100px;
+  margin: 0 auto 50px auto;
+}
+
+.formal input {
+  width: 300px;
+}
+
+.lowerFlex {
+  display: flex;
+  justify-content: space-around;
+}

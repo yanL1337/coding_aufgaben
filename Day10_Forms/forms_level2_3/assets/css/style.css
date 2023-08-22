@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  padding: 10px;
+}
+
+fieldset {
+  padding: 20px;
+}
+/* fieldset {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+} */
+
+span label {
+  margin-right: 135px;
+  text-align: center;
+}
+
+span:nth-of-type(2) label {
+  margin-right: 115px;
+}
+
+span {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.activity {
+  display: flex;
+}
+
+.activity label {
+  margin-right: 80px;
+}
+
+.Gender {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.Gender #moveRight {
+  margin-right: 125px;
+}
+
+.Gender div label {
+  margin: 0 5px 0 2px;
+}
+
+.country {
+  display: flex;
+}
+
+.country label {
+  margin-right: 125px;
+}
+
+.lang {
+  display: flex;
+}
+.lang label {
+  margin-right: 50px;
+}
+
+.lang div p {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 20px;
+  left: 60px;
+}

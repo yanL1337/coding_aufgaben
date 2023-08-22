@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="formal">
+      <section class="form">
+        <label for="text">Name</label>
+        <input type="text" id="text" placeholder="Vorname" required />
+        <input type="text" id="text" placeholder="Nachname" required />
+      </section>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Email Addresse" required />
+
+      <section class="dropdown">
+        <label for="dropdown">Thema:</label>
+        <div>
+          <select name="" id="drop">
+            <option value="GE">General</option>
+            <option value="AD">Advertise</option>
+            <option value="PA">Partnership</option>
+          </select>
+        </div>
+      </section>
+
+      <section>
+        <label for="msg">Nachricht</label>
+        <div style="display: flex; flex-direction: row">
+          <textarea name="" id="" cols="50" rows="5"></textarea>
+        </div>
+      </section>
+
+      <div>
+        <input class="senden" type="submit" value="Submit" />
+      </div>
+    </div>
+  </body>
+</html>

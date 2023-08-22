@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Register form</legend>
+
+        <span>
+          <label>Name</label> <input type="text" name="Name" id="name"
+        /></span>
+
+        <span>
+          <label>Surname</label> <input type="text" name="Surname" id="surname"
+        /></span>
+        <span>
+          <label>Email</label> <input type="email" name="email" id="email"
+        /></span>
+
+        <section class="Gender">
+          <label id="moveRight">Gender</label>
+          <div>
+            <label for="radioMale">Male</label>
+            <input type="radio" id="radioMale" checked />
+          </div>
+          <div>
+            <label for="radioFemale">Female</label>
+            <input type="radio" id="radioFemale" />
+          </div>
+        </section>
+
+        <span> <label>Picture</label> <input type="file" id="file" /></span>
+
+        <section class="country">
+          <label>Country</label>
+          <div>
+            <select name="" id="">
+              <option value="DE">Germany</option>
+              <option value="FR">France</option>
+              <option value="US">USA</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="lang">
+          <label>Preferred languages</label>
+          <div>
+            <select multiple name="" id="">
+              <option value="HTM">HTML</option>
+              <option value="Css">Css</option>
+              <option value="Js">JS</option>
+              <option value="Re">React</option>
+            </select>
+            <p>(To choose more than one use cmd key)</p>
+          </div>
+        </section>
+
+        <section class="activity">
+          <label>Field of activity</label>
+          <div>
+            <input type="checkbox" id="checkboxActivity" />
+            <label for="checkboxActivity">IT</label>
+          </div>
+          <div>
+            <input type="checkbox" id="checkboxxActivity" />
+            <label for="checkboxxActivity">Design</label>
+          </div>
+          <div>
+            <input type="checkbox" id="checkboxSxActivity" />
+            <label for="checkboxSxActivity">Other</label>
+          </div>
+        </section>
+
+        <button type="submit">Send</button>
+        <button type="reset">Cancel</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
