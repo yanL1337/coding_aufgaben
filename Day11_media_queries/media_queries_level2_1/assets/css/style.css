@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+.left,
+.right {
+  width: 50vw;
+}
+
+/* - Linke Seite */
+
+h1 {
+  margin: 50px 0 300px 50px;
+}
+
+section {
+  margin-left: 50px;
+}
+
+section article h2 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+section article p {
+  font-size: 1.8rem;
+  display: inline-block;
+  width: 350px;
+  font-weight: lighter;
+  margin-bottom: 165px;
+}
+
+.footerLeft {
+  background-color: beige;
+  height: 70px;
+}
+
+/* - Rechte Seite */
+
+.right {
+  background: url("https://www.wright20.com/items/index/2000/104_2_dieter_rams_the_jf_chen_collection_july_2018_artur_braun_and_fritz_eichler_sk_25_radio__wright_auction.jpg?t=1536592304")
+    no-repeat center;
+  background-size: cover;
+
+  position: relative;
+}
+
+.right h2 {
+  font-weight: light;
+  margin: 50px 0 300px 50px;
+}
+
+.right h2 span {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.footerRight {
+  background-color: beige;
+  height: 70px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* .artist {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  height: 30px;
+} */
+
+.artist {
+  font-size: 1.4rem;
+  margin: 20px 20px;
+  text-align: right;
+}
