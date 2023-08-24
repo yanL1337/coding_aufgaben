@@ -8,11 +8,11 @@
   display: grid;
   gap: 10px;
 
-  grid-template-columns: 6fr 2fr 2fr;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.gridParent div {
-  height: 50px;
+.gridParent * {
+  height: 100px;
 }
 
 .red {
@@ -22,7 +22,8 @@
 .blue {
   background-color: blue;
   grid-column: 1/2;
-  grid-row: 2 / 3;
+  grid-row: 2 / 4;
+  height: 210px;
 }
 .green {
   background-color: green;
