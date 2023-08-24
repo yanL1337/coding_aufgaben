@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gridParent {
+  display: grid;
+  gap: 10px;
+
+  grid-template-columns: 6fr 2fr 2fr;
+}
+
+.gridParent div {
+  height: 50px;
+}
+
+.red {
+  background-color: red;
+  grid-column: 1/4;
+}
+.blue {
+  background-color: blue;
+  grid-column: 1/2;
+  grid-row: 2 / 3;
+}
+.green {
+  background-color: green;
+  grid-column: 2/4;
+}
+.purple {
+  background-color: purple;
+  grid-column: 2/3;
+}
+
+.purple2 {
+  background-color: purple;
+  grid-column: 3/4;
+}
