@@ -23,17 +23,20 @@ body {
   }
 
   25% {
-    box-shadow: rgba(84, 207, 94, 0.827) 0px 20px 50px 10px;
+    box-shadow: rgba(84, 207, 94, 0.827) 20px 20px 50px 10px,
+      rgba(207, 84, 197, 0.827) -20px -20px 50px 10px;
   }
 
   50% {
-    box-shadow: rgba(207, 84, 197, 0.827) -20px 7px 40px 10px;
+    box-shadow: rgba(207, 84, 197, 0.827) -20px -20px 40px 10px,
+      rgba(84, 207, 94, 0.827) 20px 20px 40px 10px;
   }
   75% {
-    box-shadow: rgba(180, 34, 46, 0.827) 20px -7px 40px 10px;
+    box-shadow: rgba(180, 34, 46, 0.827) 20px -7px 40px 10px,
+      rgba(13, 191, 227, 0.827) -20px 7px 40px 10px;
   }
 
   100% {
-    box-shadow: rgba(13, 191, 227, 0.827) 0px 7px 29px 10px;
+    box-shadow: rgba(227, 13, 127, 0.827) 0px 7px 29px 10px;
   }
 }
