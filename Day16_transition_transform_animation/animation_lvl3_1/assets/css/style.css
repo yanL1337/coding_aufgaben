@@ -1,0 +1,50 @@
+.ball1,
+.ball2,
+.ball3,
+.ball4 {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  border-radius: 50%;
+  animation-name: meine;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+
+.ball2 {
+  animation-delay: 2s;
+}
+
+.ball3 {
+  animation-delay: 4s;
+}
+
+.ball4 {
+  animation-delay: 6s;
+}
+
+@keyframes meine {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(400px);
+    background-color: grey;
+  }
+
+  50% {
+    transform: translateY(400px) translateX(400px);
+    background-color: tomato;
+  }
+  75% {
+    transform: translateY(400px) translateX(0);
+    background-color: blueviolet;
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

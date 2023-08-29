@@ -1,0 +1,16 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  transition: 1s ease;
+  margin-top: 200px;
+  margin-left: 200px;
+  border-radius: 10%;
+}
+
+.box:hover {
+  transform: scale(1.3) rotate(90deg);
+
+  transform-origin: 10% 70%;
+  border-radius: 30%;
+}
